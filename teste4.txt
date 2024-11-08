@@ -37,3 +37,21 @@ Git:: ComandosEssenciais:
 
 	● git push [alias_repositorio][branch]
 
+
+● Atualiza o repositório local baixando as branches e tags novas do repositório remoto:
+	● git pull
+
+● Verifica em qual branch você está, se há algum arquivo modificado e não enviado para o stage ou se 
+  há arquivos no stage e não enviados para o servidor remoto:
+	● git status
+
+● Desfaz as alterações realizadas em algum arquivo para a versão anterior deste arquivo:
+	● git restore arquivo_modificado.css
+
+● Lista as tags de um repositório:
+	● git tag
+● Cria uma nova tag:
+	● git tag -a v1.4 -m “minha versão 1.4”
+
+● Envia a tag para o repositório remoto:
+	● git push origin v1.4
