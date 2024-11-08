@@ -1,0 +1,39 @@
+Controle de Versão
+Git:: ComandosEssenciais:
+
+● Cria um novo repositório Git em um diretório da sua máquina:
+	●git init
+
+● Clona um repositório Git de um endereço remoto para um diretório na sua máquina:
+	●git clone [url]
+
+●O comando add adiciona os arquivos solicitados ao ambiente de stage. É uma forma de dizer para o git que você deseja que as modificações daquele(s)arquivo(s)sejam marcadas para serem enviadas na próxima remessa ao repositório (push):
+
+
+	● git add .  -> adicionatodososarquivosmodificados;
+
+	● git add *.java  -> adiciona todos os arquivos de uma determinada extensão que foram modificados;
+
+		● git add arquivo.txt  -> adiciona um determinado arquivo modificado ao stage;
+
+	● O comando commit grava as modificações, desta forma é criado um snapshot do estado atual do projeto:
+
+		● git commit -m  “versão inicial do projeto”
+
+
+	● O comando remote lista todos os alias e os respectivos repositórios remotos:
+		● git remote –v
+
+	●Após criar um repositório git local, é possível também vincular este a um repositório remoto através 	 do comando remote add:
+		
+		●git remote add [alias_repositorio][url]
+
+
+● Para atualizar o repositório local com o código do repositório remoto, utilize o comando pull:
+
+	● git pull [alias_repositorio][branch]
+
+● Para enviar o código do repositório local para o repositório remoto, utilize o comando push:
+
+	● git push [alias_repositorio][branch]
+
